@@ -1,17 +1,21 @@
 {
-  "name": "capital",
+  "name": "@dmitriy/capital",
   "version": "1.0.0",
   "description": "It determines if a string starts with an upper-case letter A-Z and returns true or false",
   "main": "index.js",
+  "keywords": [
+    "capital",
+    "npm",
+    "package"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.spec.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mksby/capital.git"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mksby/capital/issues"
   },
