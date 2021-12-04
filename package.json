@@ -1,5 +1,5 @@
 {
-  "name": "@dmitriy/capital",
+  "name": "@mksby/capital",
   "version": "1.0.0",
   "description": "It determines if a string starts with an upper-case letter A-Z and returns true or false",
   "main": "index.js",
