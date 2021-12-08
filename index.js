@@ -7,9 +7,5 @@ module.exports = input => {
         return false;
     }
 
-    if (!/^[a-zA-Z]/.test(input)) {
-        return false;
-    }
-
-    return input[0] === input[0].toUpperCase();
+    return /^[A-Z]/.test(input);
 };
